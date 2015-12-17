@@ -1,7 +1,7 @@
 class Runner
 
     @queue = :scripts
-    SCRIPTS_DIR = "~/Development/SBP/scripts"
+    SCRIPTS_DIR = "~/scripts"
 
 
     def self.perform(script_name)
